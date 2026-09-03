@@ -1,0 +1,12 @@
+torch>=2.1.0
+rdkit-pypi
+fair-esm
+biopython
+pandas>=2.0.0
+scikit-learn
+matplotlib
+seaborn
+selfies>=2.0.0
+numpy
+jupyter
+fastprogress==1.0.3

@@ -1,0 +1,78 @@
+# -------------------------------
+# Données (si non partageables)
+# -------------------------------
+data/anti_microbial_peptides.csv
+data/AMP.csv
+
+# -------------------------------
+# Résultats générés par le notebook
+# -------------------------------
+results/
+*.csv
+*.log
+*.tmp
+
+# -------------------------------
+# Framework MRL (cloné séparément)
+# -------------------------------
+mrl/
+
+# -------------------------------
+# Fichiers temporaires Python
+# -------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# -------------------------------
+# Environnements virtuels
+# -------------------------------
+.venv
+venv/
+env/
+ENV/
+
+# -------------------------------
+# Jupyter Notebook
+# -------------------------------
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# -------------------------------
+# Modèles entraînés (fichiers lourds)
+# -------------------------------
+*.pt
+*.pth
+*.h5
+*.pb
+*.onnx
+*.joblib
+
+# -------------------------------
+# Fichiers d'IDE / OS
+# -------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# -------------------------------
+# Fichiers d'environnement / secrets
+# -------------------------------
+.env
+.env.local
+*.key
+*.pem
+*.crt
+
+# -------------------------------
+# Dossiers "untracked" (si tu en utilises)
+# -------------------------------
+untracked_files/
